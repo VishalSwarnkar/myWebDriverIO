@@ -1,0 +1,22 @@
+{
+  "name": "webdrive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "selenium-standalone": "^6.4.1",
+    "wdio-mocha-framework": "^0.5.4",
+    "wdio-selenium-standalone-service": "0.0.8",
+    "webdriverio": "^4.8.0"
+  }
+}
